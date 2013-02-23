@@ -1,0 +1,9 @@
+How to use?
+-----------
+
+You can import ``canvas_to_blob`` from ``js.javascript_canvas_to_blob`` and
+``need`` it where you want these resources to be included on a page::
+
+  >>> from js.javascript_canvas_to_blob import canvas_to_blob
+  >>> canvas_to_blob.need()
+
